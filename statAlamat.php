@@ -48,6 +48,7 @@ foreach ($alamatStat as $a) {
             data: {
                 labels: xValues,
                 datasets: [{
+                    label: 'Data Pasien berdasarkan alamat',
                     backgroundColor: barColors,
                     data: yValues
                 }]
