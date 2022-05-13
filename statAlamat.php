@@ -50,7 +50,8 @@ foreach ($alamatStat as $a) {
                 datasets: [{
                     label: 'Data Pasien berdasarkan alamat',
                     backgroundColor: barColors,
-                    data: yValues
+                    data: yValues,
+                    borderWidth: 2
                 }]
             },
             options: {
