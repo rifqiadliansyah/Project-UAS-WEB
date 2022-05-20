@@ -34,6 +34,7 @@ if (isset($_POST["btnAll"])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
@@ -75,50 +76,53 @@ if (isset($_POST["btnAll"])) {
 
         <div class="p-3 mb-2 bg-success text-white">Jumlah data pasien (dinamis) : <?= $jumlahData; ?></div>
 
+        <div class="tab-navbar">
+            <nav class="navbar navbar-light fs-5 mb-2" style="background-color: transparent;">
+            <a  href="tambah.php" class="btn btn-primary text-decoration-none justify-content-left ms-1 mb-2" >Tambah data pasien</a><br>
+            <a class="nav-search-bar justify-content-right text-decoration-none" href="">
+                <form class="input-group " action="" method="post" style="margin-bottom: 8px ;">
 
-        <nav class="navbar navbar-light fs-5 mb-2" style="background-color: transparent;">
-        <a  href="tambah.php" class="btn btn-primary text-decoration-none justify-content-left ms-1 mb-2" >Tambah data pasien</a><br>
-        <a class="nav-search-bar justify-content-right text-decoration-none" href="">
-            <form class="input-group " action="" method="post" style="margin-bottom: 8px ;">
-
-                <input class="form-control" type="text" size="30" name="keyword" autofocus placeholder="Masukkan nama / alamat " autocomplete="off" class = "mt-2 mb-2">
-                <button class="btn btn-outline-primary" type="submit" name="btnCari">Cari</button>
-                <button class="btn btn-outline-primary me-3" type="submit" name="btnAll">Tampilkan Semua</button>
+                    <input class="form-control" type="text" size="30" name="keyword" autofocus placeholder="Masukkan nama / alamat " autocomplete="off" class = "mt-2 mb-2">
+                    <button class="btn btn-outline-primary" type="submit" name="btnCari">Cari</button>
+                    <button class="btn btn-outline-primary me-3" type="submit" name="btnAll">Tampilkan Semua</button>
 
 
-            </form>
-        </a>
+                </form>
+            </a>
+        </div>
         
-
-        <table class="table table-bordered text-center mt-2 ">
-        <thead class="table-primary">
-            <tr>
-                <th>No.</th>
-                <th>Edit Pasien</th>
-                <th>Nama Pasien</th>
-                <th>Alamat</th>
-                <th>Kategori</th>
-                <th>Jenis Kelamin</th>
-            </tr>
-        </thead>
-            <?php $i = 1; ?>
-            <?php foreach ($pasien as $p) :
-            ?>
+        
+        <div class="table">
+            <table class="table table-bordered text-center mt-2 ">
+            <thead class="table-primary">
                 <tr>
-                    <td><?= $i; ?></td>
-                    <td>
-                        <!-- Ngrimin id -->
-                        <a href="ubah.php?id=<?= $p["id"]; ?>" class="link-primary"><i class="fa-solid fa-pen-to-square fs-5 me-3"></i></a>
-                        <a href="hapus.php?id=<?= $p["id"]; ?>" class="link-danger" onclick="return confirm('Yakin?');"><i class="fa-solid fa-trash fs-5 "></i></a>
-                    </td>
-                    <td><?= $p["nama"]; ?></td>
-                    <td><?= $p["alamat"]; ?></td>
-                    <td><?= $p["kategori"]; ?></td>
-                    <td><?= $p["jenisKelamin"]; ?></td>
+                    <th>No.</th>
+                    <th>Edit Pasien</th>
+                    <th>Nama Pasien</th>
+                    <th>Alamat</th>
+                    <th>Kategori</th>
+                    <th>Jenis Kelamin</th>
                 </tr>
-                <?php $i++; ?>
-            <?php endforeach; ?>
-        </table>
+            </thead>
+                <?php $i = 1; ?>
+                <?php foreach ($pasien as $p) :
+                ?>
+                    <tr>
+                        <td><?= $i; ?></td>
+                        <td>
+                            <!-- Ngrimin id -->
+                            <a href="ubah.php?id=<?= $p["id"]; ?>" class="link-primary"><i class="fa-solid fa-pen-to-square fs-5 me-3"></i></a>
+                            <a href="hapus.php?id=<?= $p["id"]; ?>" class="link-danger" onclick="return confirm('Yakin?');"><i class="fa-solid fa-trash fs-5 "></i></a>
+                        </td>
+                        <td><?= $p["nama"]; ?></td>
+                        <td><?= $p["alamat"]; ?></td>
+                        <td><?= $p["kategori"]; ?></td>
+                        <td><?= $p["jenisKelamin"]; ?></td>
+                    </tr>
+                    <?php $i++; ?>
+                <?php endforeach; ?>
+            </table>
+        </div>
     </div>
 
     <!-- Boostrap bundle -->

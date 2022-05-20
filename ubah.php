@@ -56,7 +56,9 @@ if (isset($_POST["btnSubmit"])) {
 
             </a>
     </nav>
-    <h1>Ubah Data Pasien</h1>
+    <div class="layout-main">   
+        <h1>Ubah Data Pasien</h1>
+    </div>
 
     <div class="style-box">
         <form action="" method="post">

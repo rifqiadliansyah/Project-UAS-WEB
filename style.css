@@ -22,3 +22,29 @@ li {
     padding-bottom: 20px;
     text-align: center;
 }
+.table{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.tab-navbar{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.chart-container {
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+}
+.chart-container-jk {
+    position: relative;
+    margin: auto;
+    height: 30vh;
+    width: 30vw;
+}
+.chart-container-usia{
+    position: relative;
+    margin: auto;
+    height: 30vh;
+    width: 30vw;
+}
