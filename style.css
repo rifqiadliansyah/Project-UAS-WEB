@@ -1,0 +1,24 @@
+div{
+    font-family:Avenir Next;
+}
+body{
+	font-family: sans-serif;
+}
+.style-box{
+	width: 1000px;
+	background: rgb(238, 251, 255);
+    margin:  auto;
+    padding: 50px 20px;
+}
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
+}
+.layout-main h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
