@@ -64,13 +64,13 @@ if ((isset($_POST['btnSubmit'])) && (isset($_POST['kategori'])) && (isset($_POST
             <div class="form-group row">
                 <label for="nama" class="col-sm-2 col-form-label">Nama Pasien</label>
                 <div class="col-sm-10">
-                <input type="text" class="form-control" id="nama" name="nama">
+                <input type="text" class="form-control" id="nama" name="nama" required>
                 </div>
             </div><br>
             <div class="form-group row">
                 <label for="alamat" class="col-sm-2 col-form-label">Alamat</label>
                 <div class="col-sm-10">
-                <input type="text" class="form-control" id="alamat" name="alamat">
+                <input type="text" class="form-control" id="alamat" name="alamat" required>
                 </div>
             </div><br>
             <fieldset class="form-group row">
