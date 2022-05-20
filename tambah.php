@@ -116,45 +116,12 @@ if ((isset($_POST['btnSubmit'])) && (isset($_POST['kategori'])) && (isset($_POST
 
             <button type="submit" class="btn btn-primary" name="btnSubmit" value="Tambah">Tambah Data Pasien</button><br><br>
 
-            <!-- <ul>
-                <li>
-                    <label for="nama">Nama Pasien : </label> <br>
-                    <input type="text" name="nama" id="nama" required>
-                </li>
-                <li>
-                    <label for="alamat">Alamat : </label> <br>
-                    <input type="text" name="alamat" id="alamat" required>
-                </li>
-                <li>
-                    <label>Kategori : </label> <br>
-
-                    <input type="radio" id="remaja" name="kategori" value="Remaja" required>
-                    <label for="remaja"> Remaja</label><br>
-
-                    <input type="radio" id="dewasa" name="kategori" value="Dewasa">
-                    <label for="dewasa"> Dewasa</label><br>
-
-                    <input type="radio" id="lansia" name="kategori" value="Lansia">
-                    <label for="lansia"> Lansia</label><br>
-                </li>
-                <li>
-                    <label >Jenis Kelamin : </label> <br>
-                    <input type="radio" id="jk" name="jk" value="Pria" required>
-                    <label for="jk">Pria</label><br>
-
-                    <input type="radio" id="jk" name="jk" value="Wanita">
-                    <label for="jk">Wanita</label><br>
-                </li>
-                <li>
-                    <button type="submit" name="btnSubmit">Tambah Data Pasien</button>
-                </li>
-            </ul> -->
         </form>    
     </div>
     
 
-     <!-- Boostrap bundle -->
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- Boostrap bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <!-- font awesome (untuk icon) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
