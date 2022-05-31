@@ -5,7 +5,7 @@ __Sistem Rekam Pasien Hepatitis Akut__ adalah sebuah sistem untuk membantu penda
 *Mengedit data pasien </br>
 *Menghapus data pasien </br>
 *Mengupdate data pasien </br>
-*Menampilkan statistik pasien berdasarkan 3 kategori yakni alamat, usia , jenis kelamin</br>
+*Menampilkan statistik pasien berdasarkan 3 kategori yakni alamat, usia , jenis kelamin</br></br>
 __Peran anggota :__ </br>
 1.Rifqi Adliansyah - 2017051003</br>
 -Membuat backend web ( CRUD , Search , statistik data menggunakan chart js )</br>
