@@ -1,11 +1,14 @@
 # Project-Web (Sistem Rekap Pasien Hepatitis Akut)</br>
 </br></br>
 __Sistem Rekam Pasien Hepatitis Akut__ adalah sebuah sistem untuk membantu pendataan pasien penderita hepatitis akut dimana memiliki fitur : </br>
-*Menambah data pasien </br>
-*Mengedit data pasien </br>
-*Menghapus data pasien </br>
-*Mengupdate data pasien </br>
-*Menampilkan statistik pasien berdasarkan 3 kategori yakni alamat, usia , jenis kelamin</br></br>
+<ul>
+    <li>Menambah data pasien</li>
+    <li>Mengedit data pasien</li>
+    <li>Menghapus data pasien</li>
+    <li>Mengupdate data pasien </li>
+   <li>Menampilkan statistik pasien berdasarkan 3 kategori yakni alamat, usia , jenis kelamin</li>
+</ul>
+</br>
 __Peran anggota :__ </br>
 1.Rifqi Adliansyah - 2017051003</br>
 -Membuat backend web ( CRUD , Search , statistik data menggunakan chart js )</br>
