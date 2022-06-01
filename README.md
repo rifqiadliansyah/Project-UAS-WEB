@@ -18,5 +18,5 @@ __Sistem Rekam Pasien Hepatitis Akut__ adalah sebuah sistem untuk membantu penda
 -Hosting</br>
 3.M Mufid Sadzilli</br>
 -Membuat front-end web
-<h2>Linnk Website : https://uap-web.000webhostapp.com/index.php </h2>
-<a  href="https://uap-web.000webhostapp.com/index.php">Simpanan</a>
+<h2>Linnk Website : <a  href="https://uap-web.000webhostapp.com/index.php">Klik Disini</a> </h2>
+
