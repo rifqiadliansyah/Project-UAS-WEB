@@ -8,6 +8,7 @@ __Sistem Rekam Pasien Hepatitis Akut__ adalah sebuah sistem untuk membantu penda
     <li>Mengupdate data pasien </li>
    <li>Menampilkan statistik pasien berdasarkan 3 kategori yakni alamat, usia , jenis kelamin</li>
 </ul>
+
 </br>
 <b>Peran anggota :</b> </br>
 1.Rifqi Adliansyah - 2017051003</br>
@@ -17,3 +18,5 @@ __Sistem Rekam Pasien Hepatitis Akut__ adalah sebuah sistem untuk membantu penda
 -Hosting</br>
 3.M Mufid Sadzilli</br>
 -Membuat front-end web
+<h2>Linnk Website : https://uap-web.000webhostapp.com/index.php </h2>
+<a  href="https://uap-web.000webhostapp.com/index.php">Simpanan</a>
